@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "cthulhu-sheet-backend"
+version = "0.1.0"
+description = ""
+authors = ["Anton Grigoryev <grianton535@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.120.0"
+uvicorn = {extras = ["standard"], version = "^0.38.0"}
+sqlmodel = "^0.0.27"
+aiosqlite = "^0.21.0"
+python-jose = {extras = ["cryptography"], version = "^3.5.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+pydantic-settings = "^2.11.0"
+python-dotenv = "^1.2.1"
+loguru = "^0.7.3"
+tomli = "^2.3.0"
+bcrypt = "4.0.1"
+python-multipart = "^0.0.20"
+pydantic = {extras = ["email"], version = "^2.12.3"}
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.2"
+httpx = "^0.28.1"
+pytest-asyncio = "^1.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,96 @@
+2025-10-30 12:55:43.401 | INFO     | app.core.logger:loggingMiddleware:80 - (a9ce8270-a51f-4a3d-bc85-081e608f461e) REQUEST POST - /api/v1/auth/register - ""
+2025-10-30 12:55:43.801 | INFO     | app.core.logger:loggingMiddleware:96 - (a9ce8270-a51f-4a3d-bc85-081e608f461e) RESPONSE 201 - 00:00:00.400085+00:00 
+2025-10-30 12:55:43.812 | INFO     | app.core.logger:loggingMiddleware:80 - (5613aba7-8b16-4f39-905c-15be9da0e379) REQUEST POST - /api/v1/auth/login - ""
+2025-10-30 12:55:44.156 | INFO     | app.core.logger:loggingMiddleware:96 - (5613aba7-8b16-4f39-905c-15be9da0e379) RESPONSE 200 - 00:00:00.347152+00:00 
+2025-10-30 12:55:44.156 | INFO     | app.core.logger:loggingMiddleware:80 - (46272e2d-7df1-4aaa-a960-8b2f12192b24) REQUEST GET - /api/v1/auth/ - "{}"
+2025-10-30 12:55:44.168 | INFO     | app.core.logger:loggingMiddleware:96 - (46272e2d-7df1-4aaa-a960-8b2f12192b24) RESPONSE 401 - 00:00:00.012203+00:00 
+2025-10-30 12:55:44.173 | INFO     | app.core.logger:loggingMiddleware:80 - (3726d855-acb5-44f4-8f01-ed2477e306ca) REQUEST POST - /api/v1/auth/refresh - "{}"
+2025-10-30 12:55:44.179 | INFO     | app.core.logger:loggingMiddleware:96 - (3726d855-acb5-44f4-8f01-ed2477e306ca) RESPONSE 200 - 00:00:00.006657+00:00 
+2025-10-30 12:55:44.187 | INFO     | app.core.logger:loggingMiddleware:80 - (478a0693-efb4-411c-b5a7-e8745051628b) REQUEST POST - /api/v1/auth/register - ""
+2025-10-30 12:55:44.503 | INFO     | app.core.logger:loggingMiddleware:96 - (478a0693-efb4-411c-b5a7-e8745051628b) RESPONSE 201 - 00:00:00.314584+00:00 
+2025-10-30 12:55:44.503 | INFO     | app.core.logger:loggingMiddleware:80 - (d31a9583-1300-45bf-9b2a-14007435d329) REQUEST POST - /api/v1/auth/login - ""
+2025-10-30 12:55:44.824 | INFO     | app.core.logger:loggingMiddleware:96 - (d31a9583-1300-45bf-9b2a-14007435d329) RESPONSE 200 - 00:00:00.320429+00:00 
+2025-10-30 12:55:44.851 | INFO     | app.core.logger:loggingMiddleware:80 - (3f6fd9af-d380-40ce-8400-deecc035b0d4) REQUEST PUT - /api/v1/auth/d44386a1-8a41-4bb8-a9b0-e7200e13f235 - "{'new_password': 'newpass'}"
+2025-10-30 12:55:44.859 | INFO     | app.core.logger:loggingMiddleware:96 - (3f6fd9af-d380-40ce-8400-deecc035b0d4) RESPONSE 401 - 00:00:00.007478+00:00 
+2025-10-30 12:55:45.090 | INFO     | app.core.logger:loggingMiddleware:80 - (7d173972-7b0d-433b-804e-5957197f0c3d) REQUEST POST - /api/v1/auth/register - ""
+2025-10-30 12:55:45.419 | INFO     | app.core.logger:loggingMiddleware:96 - (7d173972-7b0d-433b-804e-5957197f0c3d) RESPONSE 201 - 00:00:00.329119+00:00 
+2025-10-30 12:55:45.419 | INFO     | app.core.logger:loggingMiddleware:80 - (4a707bc2-3bed-4cd2-959a-4eb2137b4e74) REQUEST POST - /api/v1/auth/login - ""
+2025-10-30 12:55:45.711 | INFO     | app.core.logger:loggingMiddleware:96 - (4a707bc2-3bed-4cd2-959a-4eb2137b4e74) RESPONSE 200 - 00:00:00.292005+00:00 
+2025-10-30 12:55:45.718 | INFO     | app.core.logger:loggingMiddleware:80 - (43f965fa-ed6c-4788-93e5-1b0a2023ca49) REQUEST DELETE - /api/v1/auth/ce6bdfb7-0f45-4d56-814e-1892850cc663 - "{}"
+2025-10-30 12:55:45.725 | INFO     | app.core.logger:loggingMiddleware:96 - (43f965fa-ed6c-4788-93e5-1b0a2023ca49) RESPONSE 401 - 00:00:00.007017+00:00 
+2025-10-30 12:55:45.725 | INFO     | tests.test_auth:test_delete_user:120 - {"detail":"Unable to validate token"}
+2025-10-30 13:03:16.019 | INFO     | app.core.logger:loggingMiddleware:80 - (56d47d1e-28e6-4d19-ab07-54c2954fbada) REQUEST POST - /api/v1/auth/register - ""
+2025-10-30 13:03:16.366 | INFO     | app.core.logger:loggingMiddleware:96 - (56d47d1e-28e6-4d19-ab07-54c2954fbada) RESPONSE 201 - 00:00:00.347009+00:00 
+2025-10-30 13:03:16.375 | INFO     | app.core.logger:loggingMiddleware:80 - (d408fe88-26e7-44bc-9465-b71ca314e3b1) REQUEST POST - /api/v1/auth/login - ""
+2025-10-30 13:03:16.730 | INFO     | app.core.logger:loggingMiddleware:96 - (d408fe88-26e7-44bc-9465-b71ca314e3b1) RESPONSE 200 - 00:00:00.355571+00:00 
+2025-10-30 13:03:16.743 | INFO     | app.core.logger:loggingMiddleware:80 - (2aebfb09-d1c7-4072-8f09-7ffe94214a26) REQUEST GET - /api/v1/auth/ - "{}"
+2025-10-30 13:03:16.805 | WARNING  | app.core.api:get_current_user:39 - (2aebfb09-d1c7-4072-8f09-7ffe94214a26) user is none
+2025-10-30 13:03:16.810 | INFO     | app.core.logger:loggingMiddleware:96 - (2aebfb09-d1c7-4072-8f09-7ffe94214a26) RESPONSE 401 - 00:00:00.067829+00:00 
+2025-10-30 13:03:16.818 | INFO     | app.core.logger:loggingMiddleware:80 - (01c5f195-3846-4c99-833e-c58e8df1b1b6) REQUEST POST - /api/v1/auth/refresh - "{}"
+2025-10-30 13:03:16.819 | INFO     | app.core.logger:loggingMiddleware:96 - (01c5f195-3846-4c99-833e-c58e8df1b1b6) RESPONSE 200 - 00:00:00.001790+00:00 
+2025-10-30 13:03:16.832 | INFO     | app.core.logger:loggingMiddleware:80 - (4f0ec987-6538-4cc3-96b2-4791121e4b03) REQUEST POST - /api/v1/auth/register - ""
+2025-10-30 13:03:17.220 | INFO     | app.core.logger:loggingMiddleware:96 - (4f0ec987-6538-4cc3-96b2-4791121e4b03) RESPONSE 201 - 00:00:00.388672+00:00 
+2025-10-30 13:03:17.224 | INFO     | app.core.logger:loggingMiddleware:80 - (ec4fd630-114c-4f99-8824-ff6f87e83edb) REQUEST POST - /api/v1/auth/login - ""
+2025-10-30 13:03:17.522 | INFO     | app.core.logger:loggingMiddleware:96 - (ec4fd630-114c-4f99-8824-ff6f87e83edb) RESPONSE 200 - 00:00:00.298627+00:00 
+2025-10-30 13:03:17.549 | INFO     | app.core.logger:loggingMiddleware:80 - (b7d04dd2-75b5-4588-a6bd-d13b0f51fa96) REQUEST PUT - /api/v1/auth/584f5bea-b0ce-4615-96a6-5b6d881bcda6 - "{'new_password': 'newpass'}"
+2025-10-30 13:03:17.555 | WARNING  | app.core.api:get_current_user:39 - (b7d04dd2-75b5-4588-a6bd-d13b0f51fa96) user is none
+2025-10-30 13:03:17.555 | INFO     | app.core.logger:loggingMiddleware:96 - (b7d04dd2-75b5-4588-a6bd-d13b0f51fa96) RESPONSE 401 - 00:00:00.005607+00:00 
+2025-10-30 13:03:17.805 | INFO     | app.core.logger:loggingMiddleware:80 - (7ac7788f-f0aa-44ab-a496-b5fd676d3df3) REQUEST POST - /api/v1/auth/register - ""
+2025-10-30 13:03:18.178 | INFO     | app.core.logger:loggingMiddleware:96 - (7ac7788f-f0aa-44ab-a496-b5fd676d3df3) RESPONSE 201 - 00:00:00.373522+00:00 
+2025-10-30 13:03:18.178 | INFO     | app.core.logger:loggingMiddleware:80 - (2cbddeb0-fcd9-47ae-9f6d-4484e939bb06) REQUEST POST - /api/v1/auth/login - ""
+2025-10-30 13:03:18.641 | INFO     | app.core.logger:loggingMiddleware:96 - (2cbddeb0-fcd9-47ae-9f6d-4484e939bb06) RESPONSE 200 - 00:00:00.462378+00:00 
+2025-10-30 13:03:18.644 | INFO     | app.core.logger:loggingMiddleware:80 - (872d71fb-3266-4447-8c12-137eea46e8d2) REQUEST DELETE - /api/v1/auth/eb7628c0-0dcf-4190-94d8-157b575db9e6 - "{}"
+2025-10-30 13:03:18.646 | WARNING  | app.core.api:get_current_user:39 - (872d71fb-3266-4447-8c12-137eea46e8d2) user is none
+2025-10-30 13:03:18.646 | INFO     | app.core.logger:loggingMiddleware:96 - (872d71fb-3266-4447-8c12-137eea46e8d2) RESPONSE 401 - 00:00:00.002012+00:00 
+2025-10-30 13:03:18.646 | INFO     | tests.test_auth:test_delete_user:120 - {"detail":"Unable to validate token"}
+2025-10-30 13:15:58.519 | INFO     | app.core.logger:loggingMiddleware:80 - (b0870408-c21a-4def-8c56-343a20aca763) REQUEST POST - /api/v1/auth/register - ""
+2025-10-30 13:15:58.805 | INFO     | app.core.logger:loggingMiddleware:96 - (b0870408-c21a-4def-8c56-343a20aca763) RESPONSE 201 - 00:00:00.286066+00:00 
+2025-10-30 13:15:58.810 | INFO     | app.core.logger:loggingMiddleware:80 - (58121bad-09cb-4e6e-913c-e317b203a07d) REQUEST POST - /api/v1/auth/login - ""
+2025-10-30 13:15:59.043 | INFO     | app.core.logger:loggingMiddleware:96 - (58121bad-09cb-4e6e-913c-e317b203a07d) RESPONSE 200 - 00:00:00.233124+00:00 
+2025-10-30 13:15:59.046 | INFO     | app.core.logger:loggingMiddleware:80 - (0eeae2bf-3c1e-46d5-a63f-2f983bf9cb10) REQUEST GET - /api/v1/auth/ - "{}"
+2025-10-30 13:15:59.051 | WARNING  | app.core.api:get_current_user:39 - (0eeae2bf-3c1e-46d5-a63f-2f983bf9cb10) user is none
+2025-10-30 13:15:59.052 | INFO     | app.core.logger:loggingMiddleware:96 - (0eeae2bf-3c1e-46d5-a63f-2f983bf9cb10) RESPONSE 401 - 00:00:00.006348+00:00 
+2025-10-30 13:15:59.056 | INFO     | app.core.logger:loggingMiddleware:80 - (95f0573e-e855-4fd9-98cd-537aa97dd48d) REQUEST POST - /api/v1/auth/refresh - "{}"
+2025-10-30 13:15:59.061 | INFO     | app.core.logger:loggingMiddleware:96 - (95f0573e-e855-4fd9-98cd-537aa97dd48d) RESPONSE 200 - 00:00:00.005666+00:00 
+2025-10-30 13:15:59.067 | INFO     | app.core.logger:loggingMiddleware:80 - (7c5ff05d-6b2e-4136-9d32-f6be84e981f6) REQUEST POST - /api/v1/auth/register - ""
+2025-10-30 13:15:59.283 | INFO     | app.core.logger:loggingMiddleware:96 - (7c5ff05d-6b2e-4136-9d32-f6be84e981f6) RESPONSE 201 - 00:00:00.216574+00:00 
+2025-10-30 13:15:59.283 | INFO     | app.core.logger:loggingMiddleware:80 - (061c9532-6b55-4de9-bc84-8ac6baf94db7) REQUEST POST - /api/v1/auth/login - ""
+2025-10-30 13:15:59.502 | INFO     | app.core.logger:loggingMiddleware:96 - (061c9532-6b55-4de9-bc84-8ac6baf94db7) RESPONSE 200 - 00:00:00.218750+00:00 
+2025-10-30 13:15:59.502 | INFO     | app.core.logger:loggingMiddleware:80 - (92b5f218-e4df-4517-9632-093d1b3ad24e) REQUEST PUT - /api/v1/auth/d1953f56-5b1f-4204-85c0-c5b967dfb458 - "{'new_password': 'newpass'}"
+2025-10-30 13:15:59.505 | WARNING  | app.core.api:get_current_user:39 - (92b5f218-e4df-4517-9632-093d1b3ad24e) user is none
+2025-10-30 13:15:59.505 | INFO     | app.core.logger:loggingMiddleware:96 - (92b5f218-e4df-4517-9632-093d1b3ad24e) RESPONSE 401 - 00:00:00.002397+00:00 
+2025-10-30 13:15:59.643 | INFO     | app.core.logger:loggingMiddleware:80 - (6e2c4564-ff62-467d-a052-e9ebde936508) REQUEST POST - /api/v1/auth/register - ""
+2025-10-30 13:15:59.858 | INFO     | app.core.logger:loggingMiddleware:96 - (6e2c4564-ff62-467d-a052-e9ebde936508) RESPONSE 201 - 00:00:00.215379+00:00 
+2025-10-30 13:15:59.859 | DEBUG    | tests.test_auth:test_delete_user:107 - 7f4e10fe-e529-4701-a85e-2816cdd24bb5
+2025-10-30 13:15:59.859 | INFO     | app.core.logger:loggingMiddleware:80 - (7d43ecc1-fecc-4281-ab4d-8cb8bcdd1605) REQUEST POST - /api/v1/auth/login - ""
+2025-10-30 13:16:00.078 | INFO     | app.core.logger:loggingMiddleware:96 - (7d43ecc1-fecc-4281-ab4d-8cb8bcdd1605) RESPONSE 200 - 00:00:00.219485+00:00 
+2025-10-30 13:16:00.079 | INFO     | app.core.logger:loggingMiddleware:80 - (08c11eea-ba0f-46b0-8869-1d265b5e60b7) REQUEST DELETE - /api/v1/auth/7f4e10fe-e529-4701-a85e-2816cdd24bb5 - "{}"
+2025-10-30 13:16:00.082 | WARNING  | app.core.api:get_current_user:39 - (08c11eea-ba0f-46b0-8869-1d265b5e60b7) user is none
+2025-10-30 13:16:00.082 | INFO     | app.core.logger:loggingMiddleware:96 - (08c11eea-ba0f-46b0-8869-1d265b5e60b7) RESPONSE 401 - 00:00:00.002939+00:00 
+2025-10-30 13:16:00.082 | INFO     | tests.test_auth:test_delete_user:121 - {"detail":"Unable to validate token"}
+2025-10-30 15:42:03.626 | INFO     | app.core.logger:loggingMiddleware:80 - (19b50b35-5cca-4c78-bb22-5c4b5fdc92f9) REQUEST POST - /api/v1/auth/register - ""
+2025-10-30 15:42:03.898 | INFO     | app.core.logger:loggingMiddleware:96 - (19b50b35-5cca-4c78-bb22-5c4b5fdc92f9) RESPONSE 201 - 00:00:00.271982+00:00 
+2025-10-30 15:42:03.909 | INFO     | app.core.logger:loggingMiddleware:80 - (2bdd47af-7dc6-4f84-bf2d-01d9d3c0c69d) REQUEST POST - /api/v1/auth/login - ""
+2025-10-30 15:42:04.147 | INFO     | app.core.logger:loggingMiddleware:96 - (2bdd47af-7dc6-4f84-bf2d-01d9d3c0c69d) RESPONSE 200 - 00:00:00.237980+00:00 
+2025-10-30 15:42:04.154 | INFO     | app.core.logger:loggingMiddleware:80 - (e095f60f-e40e-4fe8-a51a-604b6418191f) REQUEST GET - /api/v1/auth/ - "{}"
+2025-10-30 15:42:04.168 | WARNING  | app.core.api:get_current_user:39 - (e095f60f-e40e-4fe8-a51a-604b6418191f) user is none
+2025-10-30 15:42:04.168 | INFO     | app.core.logger:loggingMiddleware:96 - (e095f60f-e40e-4fe8-a51a-604b6418191f) RESPONSE 401 - 00:00:00.013813+00:00 
+2025-10-30 15:42:04.173 | INFO     | app.core.logger:loggingMiddleware:80 - (9a1f35be-6e09-40b7-9286-a610dba9012b) REQUEST POST - /api/v1/auth/refresh - "{}"
+2025-10-30 15:42:04.174 | INFO     | app.core.logger:loggingMiddleware:96 - (9a1f35be-6e09-40b7-9286-a610dba9012b) RESPONSE 200 - 00:00:00.001400+00:00 
+2025-10-30 15:42:04.181 | INFO     | app.core.logger:loggingMiddleware:80 - (1544d835-2bb3-4191-b781-440847f2fd33) REQUEST POST - /api/v1/auth/register - ""
+2025-10-30 15:42:04.387 | INFO     | app.core.logger:loggingMiddleware:96 - (1544d835-2bb3-4191-b781-440847f2fd33) RESPONSE 201 - 00:00:00.206026+00:00 
+2025-10-30 15:42:04.387 | INFO     | app.core.logger:loggingMiddleware:80 - (8bc72ebe-9d72-490e-9507-95d47c4fcde6) REQUEST POST - /api/v1/auth/login - ""
+2025-10-30 15:42:04.598 | INFO     | app.core.logger:loggingMiddleware:96 - (8bc72ebe-9d72-490e-9507-95d47c4fcde6) RESPONSE 200 - 00:00:00.211284+00:00 
+2025-10-30 15:42:04.602 | INFO     | app.core.logger:loggingMiddleware:80 - (626dbf69-2c95-45a0-844b-67f8145b27fc) REQUEST PUT - /api/v1/auth/05ed3fe2-0ddb-41fa-84c5-02e6d9c180c6 - "{'new_password': 'newpass'}"
+2025-10-30 15:42:04.605 | WARNING  | app.core.api:get_current_user:39 - (626dbf69-2c95-45a0-844b-67f8145b27fc) user is none
+2025-10-30 15:42:04.605 | INFO     | app.core.logger:loggingMiddleware:96 - (626dbf69-2c95-45a0-844b-67f8145b27fc) RESPONSE 401 - 00:00:00.002731+00:00 
+2025-10-30 15:42:04.759 | INFO     | app.core.logger:loggingMiddleware:80 - (5966c489-618a-44ac-ab41-6db01abfe1d9) REQUEST POST - /api/v1/auth/register - ""
+2025-10-30 15:42:04.969 | INFO     | app.core.logger:loggingMiddleware:96 - (5966c489-618a-44ac-ab41-6db01abfe1d9) RESPONSE 201 - 00:00:00.209545+00:00 
+2025-10-30 15:42:04.969 | DEBUG    | tests.test_auth:test_delete_user:107 - 475a5244-0da8-4b07-a7ad-6c54444f4591
+2025-10-30 15:42:04.969 | INFO     | app.core.logger:loggingMiddleware:80 - (5627c58c-19aa-424a-a144-3e11bed4850c) REQUEST POST - /api/v1/auth/login - ""
+2025-10-30 15:42:05.178 | INFO     | app.core.logger:loggingMiddleware:96 - (5627c58c-19aa-424a-a144-3e11bed4850c) RESPONSE 200 - 00:00:00.209559+00:00 
+2025-10-30 15:42:05.179 | INFO     | tests.test_auth:test_delete_user:115 - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0NzVhNTI0NC0wZGE4LTRiMDctYTdhZC02YzU0NDQ0ZjQ1OTEiLCJ0eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzYxODI5MDI1fQ.xlo2kj_wh6_en0WwpxeHtyesLLaE2RNI5sP71jsFDC4
+2025-10-30 15:42:05.179 | INFO     | app.core.logger:loggingMiddleware:80 - (07eeb0e6-1f8c-4f83-8be7-05ec8053fd07) REQUEST DELETE - /api/v1/auth/475a5244-0da8-4b07-a7ad-6c54444f4591 - "{}"
+2025-10-30 15:42:05.181 | WARNING  | app.core.api:get_current_user:39 - (07eeb0e6-1f8c-4f83-8be7-05ec8053fd07) user is none
+2025-10-30 15:42:05.181 | INFO     | app.core.logger:loggingMiddleware:96 - (07eeb0e6-1f8c-4f83-8be7-05ec8053fd07) RESPONSE 401 - 00:00:00.002205+00:00 
+2025-10-30 15:42:05.181 | INFO     | tests.test_auth:test_delete_user:122 - {"detail":"Unable to validate token"}
