@@ -16,9 +16,13 @@ from .models.user import UserCreate
 
 tags_metadata = [
     {
-        "name": "auth",
+        "name": "Auth",
         "description": "Эндпоинты для работы с учетными данными пользователей",
     },
+    {
+        "name": "Characters",
+        "description": "Эндпоинты для работы с персонажами/листами"
+    }
 ]
 
 app_name, app_version = get_project_data()
